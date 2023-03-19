@@ -13,6 +13,7 @@ Baiduyun(https://pan.baidu.com/s/1LZIF1hlT3k0oX76Ttp660w) The extraction code is
 
 ## Train and eval
  `python main_pretrain_cpc.py` and `python main_pretrain_mm_mae.py`
+ 
  `python main_finetune.py`
  
 
