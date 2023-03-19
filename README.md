@@ -33,4 +33,4 @@ Please cite the following paper if you feel this repository useful for your rese
 }
 ```
 ## Acknowledges
-This repo contains modified codes from: MAE(https://github.com/facebookresearch/mae).
+This repo contains modified codes from: [MAE](https://github.com/facebookresearch/mae).
