@@ -16,7 +16,7 @@ Note give your own data_path, output_dir and log_dir in command parameters.
 
  `python main_pretrain_cpc.py`
  
- load weight and `python main_pretrain_mm_mae.py`
+ Load CPC pretrained weights and `python main_pretrain_mm_mae.py`
  
  ## Finetune and eval
  Note give your own data_path, output_dir, log_dir and finetune in command parameters.
