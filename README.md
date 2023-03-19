@@ -11,6 +11,10 @@ Baiduyun(https://pan.baidu.com/s/1LZIF1hlT3k0oX76Ttp660w) The extraction code is
 * timm 0.3.2
 * numpy 1.17.2
 
+## Train and eval
+ `python main_pretrain_cpc.py` and `python main_pretrain_mm_mae.py`
+ `python main_finetune.py`
+ 
 
 ## Citation
 Please cite the following paper if you feel this repository useful for your research.
