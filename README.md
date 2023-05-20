@@ -14,9 +14,11 @@ Baiduyun(https://pan.baidu.com/s/1LZIF1hlT3k0oX76Ttp660w) The extraction code is
 ## Pretrain
 Note give your own data_path, output_dir and log_dir in command parameters.
 
- `python main_pretrain_cpc.py` or `python -m torch.distributed.launch  --nproc_per_node NUM_GPU main_pretrain_cpc.py`
+ `python main_pretrain_cpc.py` or 
+ `python -m torch.distributed.launch  --nproc_per_node NUM_GPU main_pretrain_cpc.py`
  
- Load CPC pretrained weights and `python main_pretrain_mm_mae.py` or `python -m torch.distributed.launch  --nproc_per_node NUM_GPU main_pretrain_mm_mae.py`
+ Load CPC pretrained weights and `python main_pretrain_mm_mae.py` or 
+ `python -m torch.distributed.launch  --nproc_per_node NUM_GPU main_pretrain_mm_mae.py`
  
  ## Finetune and eval
  Note give your own data_path, output_dir, log_dir and finetune in command parameters.
