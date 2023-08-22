@@ -38,7 +38,6 @@ Please cite the following paper if you feel this repository useful for your rese
   journal={arXiv preprint arXiv:2302.06148},
   year={2023}
 }
-}
 ```
 ## Acknowledges
 This repo contains modified codes from: [MAE](https://github.com/facebookresearch/mae).
