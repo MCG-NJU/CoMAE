@@ -32,10 +32,12 @@ Note give your own data_path, output_dir and log_dir in command parameters.
 ## Citation
 Please cite the following paper if you feel this repository useful for your research.
 ```
-@inproceedings{yang2023comae,
+@article{yang2023comae,
   title={CoMAE: Single Model Hybrid Pre-training on Small-Scale RGB-D Datasets},
   author={Yang, Jiange and Guo, Sheng and Wu, Gangshan and Wang, Limin},
+  journal={arXiv preprint arXiv:2302.06148},
   year={2023}
+}
 }
 ```
 ## Acknowledges
