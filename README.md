@@ -34,7 +34,7 @@ cpc_stage1 [Google Drive](https://drive.google.com/file/d/1ncr6Kp3e3aVmdOu-0XrKF
 
 mm_mae_stage2 [Google Drive](https://drive.google.com/file/d/1uq7xgwndsfk8ELFax9LlRNNomUnKXh2z/view?usp=drive_link)
 
-finetune [Google Drive](https://drive.google.com/file/d/1ncr6Kp3e3aVmdOu-0XrKF2K-ZZFdRF-Q/view?usp=drive_link)
+finetune [Google Drive](https://drive.google.com/file/d/14tudeAIbZXOwfFDqMda2UG5K2SwHV7_u/view?usp=drive_link)
  
 ## Citation
 Please cite the following paper if you feel this repository useful for your research.
