@@ -1,6 +1,8 @@
 # CoMAE
 [AAAI 2023] [CoMAE: Single Model Hybrid Pre-training on Small-Scale RGB-D Datasets](https://arxiv.org/abs/2302.06148)
 
+![CoMAE](https://github.com/MCG-NJU/CoMAE/blob/main/framework.png?raw=true)
+
 ## Prepare Data
 Baiduyun(https://pan.baidu.com/s/1LZIF1hlT3k0oX76Ttp660w) The extraction code is: g5vp
 
@@ -11,7 +13,7 @@ Baiduyun(https://pan.baidu.com/s/1LZIF1hlT3k0oX76Ttp660w) The extraction code is
 * timm 0.3.2
 * numpy 1.17.2
 
-## Pretrain
+## Pre-train
 Note give your own data_path, output_dir and log_dir in command parameters.
 
  `python main_pretrain_cpc.py` or 
@@ -22,7 +24,7 @@ Note give your own data_path, output_dir and log_dir in command parameters.
  
  `python -m torch.distributed.launch  --nproc_per_node NUM_GPU main_pretrain_mm_mae.py`
  
- ## Finetune and eval
+ ## Fine-tune and Eval
  Note give your own data_path, output_dir, log_dir and finetune in command parameters.
  
  `python main_finetune.py` or
