@@ -47,6 +47,31 @@ Please cite the following paper if you feel this repository useful for your rese
   journal={arXiv preprint arXiv:2302.06148},
   year={2023}
 }
+
+
+@inproceedings{DBLP:conf/aaai/Yang0W023,
+  author       = {Jiange Yang and
+                  Sheng Guo and
+                  Gangshan Wu and
+                  Limin Wang},
+  editor       = {Brian Williams and
+                  Yiling Chen and
+                  Jennifer Neville},
+  title        = {CoMAE: Single Model Hybrid Pre-training on Small-Scale {RGB-D} Datasets},
+  booktitle    = {Thirty-Seventh {AAAI} Conference on Artificial Intelligence, {AAAI}
+                  2023, Thirty-Fifth Conference on Innovative Applications of Artificial
+                  Intelligence, {IAAI} 2023, Thirteenth Symposium on Educational Advances
+                  in Artificial Intelligence, {EAAI} 2023, Washington, DC, USA, February
+                  7-14, 2023},
+  pages        = {3145--3154},
+  publisher    = {{AAAI} Press},
+  year         = {2023},
+  url          = {https://doi.org/10.1609/aaai.v37i3.25419},
+  doi          = {10.1609/AAAI.V37I3.25419},
+  timestamp    = {Mon, 04 Sep 2023 16:50:28 +0200},
+  biburl       = {https://dblp.org/rec/conf/aaai/Yang0W023.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
 ```
 ## Acknowledges
 This repo contains modified codes from: [MAE](https://github.com/facebookresearch/mae).
