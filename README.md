@@ -13,7 +13,7 @@ Baiduyun(https://pan.baidu.com/s/1LZIF1hlT3k0oX76Ttp660w) The extraction code is
 * timm 0.3.2
 * numpy 1.17.2
 
-## Pre-train
+## Pre-training
 Note give your own data_path, output_dir and log_dir in command parameters.
 
  `python main_pretrain_cpc.py` or 
@@ -24,7 +24,7 @@ Note give your own data_path, output_dir and log_dir in command parameters.
  
  `python -m torch.distributed.launch  --nproc_per_node NUM_GPU main_pretrain_mm_mae.py`
  
- ## Fine-tune and Eval
+ ## Fine-tuning and Evaluating
  Note give your own data_path, output_dir, log_dir and finetune in command parameters.
  
  `python main_finetune.py` or
