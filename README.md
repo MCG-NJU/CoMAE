@@ -1,5 +1,5 @@
 # CoMAE
-[AAAI 2023] [CoMAE: Single Model Hybrid Pre-training on Small-Scale RGB-D Datasets](https://arxiv.org/abs/2302.06148)
+[AAAI 2023 Oral] [CoMAE: Single Model Hybrid Pre-training on Small-Scale RGB-D Datasets](https://arxiv.org/abs/2302.06148)
 
 ![CoMAE](https://github.com/MCG-NJU/CoMAE/blob/main/framework.png?raw=true)
 
