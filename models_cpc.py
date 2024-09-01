@@ -15,11 +15,13 @@ import torch.nn as nn
 
 from timm.models.vision_transformer import PatchEmbed, Block
 
+from huggingface_hub import PyTorchModelHubMixin
+
 
 import numpy as np
 
 
-class MaskedAutoencoderViT(nn.Module):
+class MaskedAutoencoderViT(nn.Module, PyTorchModelHubMixin, repo_url="https://github.com/MCG-NJU/CoMAE.git", pipeline_tag=["image-feature-extraction"]):
 
     def __init__(self, img_size=224, patch_size=16, in_chans=3,
                  embed_dim=1024, depth=24, num_heads=16,

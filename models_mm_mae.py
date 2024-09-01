@@ -18,9 +18,11 @@ from timm.models.vision_transformer import PatchEmbed, Block
 
 from util.pos_embed import get_2d_sincos_pos_embed
 
+from huggingface_hub import PyTorchModelHubMixin
 
 
-class MaskedAutoencoderViT(nn.Module):
+
+class MaskedAutoencoderViT(nn.Module, PyTorchModelHubMixin, repo_url="https://github.com/MCG-NJU/CoMAE.git", pipeline_tag=["image-feature-extraction"]):
     """ Masked Autoencoder with VisionTransformer backbone
     """
 
